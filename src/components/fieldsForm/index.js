@@ -4,6 +4,7 @@ import Select from './Select'
 import RadioButton from './RadioButton'
 import MarginWrapperInputs from './MarginWrapperInputs'
 import FileInput from './FileInput'
+import MultiSelectLists from './MultiSelectLists'
 
 export {
 	TextInput,
@@ -12,4 +13,5 @@ export {
 	FileInput,
 	RadioButton,
 	MarginWrapperInputs,
+	MultiSelectLists,
 }

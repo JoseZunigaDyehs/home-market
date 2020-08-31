@@ -1,9 +1,10 @@
+import { CreateOrder } from 'screens'
 export const routes = [
 	{
 		key: 1,
 		path: `/`,
-		title: `Crear OC`,
-		component: null,
+		title: `Crear orden`,
+		component: CreateOrder,
 	},
 	{
 		key: 2,

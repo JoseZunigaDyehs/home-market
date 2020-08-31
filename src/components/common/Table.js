@@ -10,7 +10,7 @@ import TablePagination from '@material-ui/core/TablePagination'
 import Paper from '@material-ui/core/Paper'
 import Grid from '@material-ui/core/Grid'
 import { TextInput } from '../fieldsForm'
-import useForm from 'utils/hooks/useForm'
+import useForm from 'hooks/useForm'
 import Typography from '@material-ui/core/Typography'
 import Loader from './Loader'
 
