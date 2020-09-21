@@ -3,14 +3,17 @@ export const kindFoodById = {
 	2: { id: 2, name: 'Pollo' },
 	3: { id: 3, name: 'Pollo' },
 	4: { id: 4, name: 'Vegetariano' },
-	5: { id: 5, name: 'Vegeno' },
+	5: { id: 5, name: 'Vegano' },
 	6: { id: 6, name: 'Todos' },
 }
 export const ingredientsById = {
-	1: { id: 1, name: 'Pan', costPrice: 200 },
-	2: { id: 2, name: 'Palta', costPrice: 500 },
-	3: { id: 3, name: 'Tomate', costPrice: 200 },
-	4: { id: 4, name: 'Hamburguesa lenteja', costPrice: 700 },
+	1: { id: 1, name: 'Pan' },
+	2: { id: 2, name: 'Palta' },
+	3: { id: 3, name: 'Tomate' },
+	4: { id: 4, name: 'Hamburguesa lenteja' },
+	5: { id: 5, name: 'Choclo' },
+	6: { id: 6, name: 'Queso' },
+	7: { id: 7, name: 'Papas' },
 }
 export const kindPayById = {
 	1: { id: 1, name: 'Efectivo' },
@@ -28,8 +31,15 @@ export const foodsById = {
 	2: {
 		id: 2,
 		name: 'Papas fritas - Individual',
-		ingredientsIds: [5],
+		ingredientsIds: [7],
 		kindFoodId: 5,
+		price: 1000,
+	},
+	3: {
+		id: 3,
+		name: 'Empanada - Choclo Queso',
+		ingredientsIds: [5, 6],
+		kindFoodId: 4,
 		price: 1000,
 	},
 }
@@ -44,7 +54,7 @@ export const orders = [
 		createDate: '24-08-2020 02:57:00',
 		closeDate: null,
 		userId: 1,
-		foodsIds: [1, 2],
+		foodsIds: [1, 2, 3],
 		totalValue: 3800,
 		deliveryPrice: 0,
 		orderStateId: 1,
